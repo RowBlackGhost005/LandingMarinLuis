@@ -1,0 +1,135 @@
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2px;
+}
+
+h2{
+    text-align: center;
+}
+
+hr{
+    width: 75%;
+    border-color: rgb(10, 38, 71);
+}
+
+hr.entreCont{
+    width: 25%;
+    border-color: rgb(10, 38, 71);
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    grid-auto-flow: row;
+}
+
+
+header {
+    display: grid;
+    background: url(https://png.pngtree.com/background/20210711/original/pngtree-high-tech-background-picture-image_1133072.jpg);
+}
+
+header > h1{
+    justify-self: center;
+    color: aliceblue;
+    font-size: 48px
+}
+
+nav{
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    background-color: rgb(10, 38, 71);
+}
+
+th{
+    padding: 5px;
+    /*background-color: rgb(32, 82, 149);*/
+    font-size: medium;
+    color: aliceblue;
+}
+
+main{
+    background-color: rgb(217, 216, 224);
+}
+
+div.contCentrado{
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+div.contenedorSeccionDer{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template: 100% / 20% 70%;
+    justify-content: center;
+    border: 0%;
+}
+
+div.contSeccionFilaDer{
+    grid-area: auto / 2;
+    margin-left: 30px;
+}
+
+div.contSeccionDerColumna{
+    grid-area: span 2 / 1;
+    
+}
+
+div.contenedorSeccion{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template: 100% / 70%;
+    justify-content: center;
+    border: 0%;
+    margin-top: 10px;
+}
+
+div.contSeccionFila{
+    grid-area: auto / 1;
+    margin-right: 30px;
+}
+
+div.contSeccionIzqColumna{
+    grid-area: 1 / span 2;
+    
+}
+
+img.cuadrada256{
+    width: 256px;
+    height: 256px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+img.bannerSize{
+    max-width : 100%;
+    height : auto;
+}
+
+footer{
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    background-color: rgb(10, 38, 71);
+    padding: 16px;
+}
+
+footer > div > p{
+    margin-inline: 0px;
+    margin-block: 2px;
+    color: aliceblue;
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+    
+}
